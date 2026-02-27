@@ -35,9 +35,9 @@ Model Evaluation - The model was evaluated using confusion matrix analysis and c
 
 Model Explainability - Feature importance was extracted from the Random Forest model. The most influential predictors were:
 
-Serum Creatinine
-Specific Gravity
-Albumin
+Serum Creatinine,
+Specific Gravity,
+Albumin and
 Hemoglobin
 
 These features align with medical understanding of CKD indicators, increasing model interpretability.
@@ -49,12 +49,12 @@ Streamlit was chosen because it allows fast and lightweight deployment of machin
 Project Structure : 
 NephroRisk folder contains:
 
-app.py (Streamlit application)
-CKD_Model_Training.ipynb (Model development notebook)
-ckd_model.pkl (Saved trained model)
-feature_importance.csv (Model explainability data)
-kidney_disease.csv (Dataset)
-requirements.txt (Project dependencies)
+app.py (Streamlit application),
+CKD_Model_Training.ipynb (Model development notebook),
+ckd_model.pkl (Saved trained model),
+feature_importance.csv (Model explainability data),
+kidney_disease.csv (Dataset),
+requirements.txt (Project dependencies) and
 README.md
 
 How to Run Locally?
@@ -92,4 +92,4 @@ Why This Project Matters?
 
 As a Data Science student, building complete systems is more valuable than training isolated models in notebooks. This project demonstrates the ability to take a real-world healthcare problem and convert it into a deployable, explainable prediction system.
 
-It reflects practical understanding of the full machine learning lifecycle — from raw data to a working web application.
+It reflects practical understanding of the full machine learning lifecycle from raw data to a working web application.
