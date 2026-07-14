@@ -19,7 +19,7 @@ Random Forest was selected because it handles mixed numerical and categorical da
 
 Model Performance:
 
-The final Random Forest model achieved 98.75% test accuracy.
+The final Random Forest model.
 
 Evaluation was performed using: Accuracy Score, Confusion Matrix and Classification Report
 
